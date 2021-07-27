@@ -1,0 +1,65 @@
+* {margin:0;padding:0;  }
+li {list-style-type:none;}
+span.txt {font-size:0;color:transparent;text-indent:-9999px;}
+a {text-decoration:none;}
+html, body{height:100%; font-family: 'Kanit', sans-serif; background-color:black;color:#FFF;}
+
+@font-face{
+    font-family:Athene;
+    src:url(Athene.eot?#iefix) format('embedded-opentyle'),
+    url(Athene.woff) format('woff');
+}
+header{position:fixed;left:50%;margin-left:-600px;width:1200px;padding:70px 10px; z-index:1;}
+header > div {text-align:center;}
+header > div > ul {float:right; font-family: 'Kanit', sans-serif;}
+header > div > h1 > a{float:left;font-size:24px;color:#FFF;letter-spacing:3px;}
+header > div > ul > li{float:left;}
+header > div > ul > li {float:left;padding:0 15px;}
+header > div > ul > li:last-child {padding-right:0;}
+header > div > ul > li > a {font-size:22px;color:#FFF;text-decoration:none;}
+header > div > ul > li > a:hover {text-decoration:underline;}
+
+section{
+    margin:0 auto;width:1200px;height:100%;
+}
+
+section > article.list-menu {
+    display:inline-block;
+    font-family: 'Athene'; font-weight:normal;
+    padding-top:150px;
+    width:100%;
+    height:150px;
+    font-size: 30px;
+    letter-spacing:0px;
+    text-align:center;
+}
+section > article.list-menu > ul {width:1050px;height:70px;margin:0 auto;}
+section > article.list-menu > ul > li > a {width:310px; float:left;padding:0 20px; color:rgba(255,255,255,0.5);}
+section > article.list-menu > ul > li:last-child > a {float:left;padding:0 20px; color:rgba(255,255,255,1);}
+section > article.list-menu > div{
+    width:1200px;height:1px;background-color:#FFF;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+section > article.drawing {
+    width:1200px;
+    text-align:center;
+    height:700px;
+    padding:0 100px;
+}
+section > article.drawing > ul > {width:1000px;}
+section > article.drawing > ul > li {
+    font-size:14x;
+    float:left;
+    width:300px; text-align:center;padding:0 10px;
+    vertical-align:middle;
+}
+section > article.drawing > ul.ul1 > li:first-child {padding-top:90px;}
+section > article.drawing > ul > li > p > em{
+    font-style:normal;font-weight:bold;
+}
+
+footer {height:100px; text-align:center;}
+footer > ul.footer {display:inline-block;width:960px;}
+footer > ul.footer > li {height:50px;padding-top: 50px;}
